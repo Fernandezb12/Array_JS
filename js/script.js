@@ -90,3 +90,27 @@ const frutas9 = frutas7.concat(frutas8);
 
 document.write("El array de frutas es: "+frutas9.length+"<br>");
 document.write("El arrays de frutas se concatenan con la misma linea como muestra:  "+frutas9+"<br>");
+
+// metodo concat de otra forma
+
+document.write("<h3>METODO CONCAT DE OTRA FORMA</h3>");
+
+const numbers01 = [1, 2, 3]
+const numbers02 = [4, 5]
+
+//                    1, 2, 3        4, 5                     
+const allNumbers = [...numbers01, ...numbers02]
+
+document.write("El arrays de frutas se concatenan con la misma linea como muestra:  "+allNumbers+"<br>");
+
+// Ejercicio practico ProcesarPedido
+
+document.write("<h3>EJERCICIO PRACTICO PROCESAR PEDIDO</h3>");
+function procesarPedido(pedidos) {
+    const cliente = pedido.shift();
+    pedido-unshift("bebida");
+    pedido.push("cliente");
+    return pedido
+}
+const pedido = ["pizza", " refresco", " helado", " cliente"];
+document.write("El pedido es: "+pedido+"<br>");
