@@ -112,5 +112,5 @@ function procesarPedido(pedidos) {
     pedidos.push(cliente);
     return pedidos
 }
-const pedidos = ["Pedro", " Café", " Huevos", " Pan"]
-document.write("El pedido sería: "+procesarPedido(pedidos)+"<br>")
+const pedido = ["Pedro", " Café", " Huevos", " Pan"]
+document.write("El pedido sería: "+procesarPedido(pedido)+"<br>")
