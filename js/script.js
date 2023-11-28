@@ -88,5 +88,5 @@ const frutas7 = ["manzana", " pera", " platano", " fresa"];
 const frutas8 = ["mango", " uva", " sandia", " melon"];
 const frutas9 = frutas7.concat(frutas8);
 
-document.write("El array de frutas es: "+frutas9+"<br>");
-document.write("El arrays de frutas se concatenan con la misma linea como muestra:  "+frutas9.length+"<br>");
+document.write("El array de frutas es: "+frutas9.length+"<br>");
+document.write("El arrays de frutas se concatenan con la misma linea como muestra:  "+frutas9+"<br>");
