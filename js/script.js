@@ -107,10 +107,10 @@ document.write("El arrays de frutas se concatenan con la misma linea como muestr
 
 document.write("<h3>EJERCICIO PRACTICO PROCESAR PEDIDO</h3>");
 function procesarPedido(pedidos) {
-    const cliente = pedido.shift();
-    pedido-unshift("bebida");
-    pedido.push("cliente");
-    return pedido
+    const cliente = pedidos.shift();
+    pedidos.unshift("bebida");
+    pedidos.push(cliente);
+    return pedidos
 }
-const pedido = ["pizza", " refresco", " helado", " cliente"];
-document.write("El pedido es: "+pedido+"<br>");
+const pedidos = ["Pedro", " Café", " Huevos", " Pan"]
+document.write("El pedido sería: "+procesarPedido(pedidos)+"<br>")
